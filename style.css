@@ -1,19 +1,19 @@
 body{
-    background-color: rgb(115, 237, 237);
+    background-color: rgb(104, 194, 239);
 }
 
 #fake{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
     font-size: 4rem;
-    text-shadow: rgb(255, 255, 255) 2px 2px;
+    text-shadow: rgb(0, 0, 0) 2px 2px;
 }
 
 #face  {
     font-family: Verdana;
-    font-size: 20px;
-    color: rgb(0, 0, 0);
-    text-shadow: rgb(255, 255, 255) 2px 2px;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(0, 0, 0) 2px 2px;
 }
 
 *{
@@ -24,5 +24,12 @@ body{
     background-color: gray;
     height: 100px;
     width: 1550px;
-        padding-top: 2rem;
+    padding-top: 2rem;
 	}
+
+    hr{
+        margin-left: 5rem;
+        margin-right: 5rem;
+        border: 5px solid rgb(0, 0, 0);
+        border-radius: 5px;
+    }
