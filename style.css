@@ -1,19 +1,19 @@
 body{
-    background-color: rgb(104, 194, 239);
+    background-color: rgb(39, 205, 223);
 }
 
 #fake{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-align: center;
     font-size: 4rem;
-    text-shadow: rgb(0, 0, 0) 2px 2px;
+    text-shadow: rgb(255, 255, 255) 2px 2px;
 }
 
 #face  {
     font-family: Verdana;
     font-size: 1rem;
-    color: rgb(255, 255, 255);
-    text-shadow: rgb(0, 0, 0) 2px 2px;
+    color: rgb(0, 0, 0);
+    text-shadow: rgb(255, 255, 255) 2px 2px;
     text-align: center;
 }
 
@@ -28,35 +28,21 @@ body{
     padding-top: 2rem;
     box-shadow: 4px 4px;
     animation-name: spok;
-    animation-duration: 10s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
 	}
 
     hr{
-        margin-left: 3rem;
-        margin-right: 3rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
         border: 5px solid rgb(0, 0, 0);
         border-radius: 5px;
-        animation-name: sid;
-        animation-duration: 10s;
-        animation-iteration-count: infinite;
     }
 
-    #one{
-        text-align: center;
-        color: rgb(255, 255, 255);
-        text-shadow: rgb(0, 0, 0) 2px 2px;
-        font-size: 4rem;
-    }
+
 
     @keyframes spok{
-        from{background-color: black;}
+        from{background-color: rgb(81, 204, 253);}
 
-        to {background-color: aqua;}
+        to {background-color: rgb(255, 255, 255);}
             }
-
-        @keyframes sid{
-            from{border: 2px solid rgb(0, 0, 0)}
-
-            to {border: 2px solid aqua}
-            } 
