@@ -5,6 +5,16 @@
         color:rgb(0, 0, 0);
     }
 
+    header{
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    footer{
+        font-size: 2rem;
+        color: whitesmoke;
+    } 
+    
    
    *{
         margin: 0;
